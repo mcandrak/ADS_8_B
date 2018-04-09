@@ -1,0 +1,23 @@
+Sistem Monitoring Untuk Lansia Di Panti Jompo
+
+1.	Project Sponsor		: 	
+	-	Ketua Yayasan Panti Jompo
+
+2.	Bussines Need		: 	
+	-	Untuk memudahkan orang orang yang memiliki pekerjaan sibuk sehingga tidak memiliki waktu yang maksimal dalam merawat Orang Tua dan memantau orang tua di Panti Jompo.
+	-	Memudahkan perawat di panti jompo dalam hal merawat dan memenuhi kebutuhan orang yang di rawatnya berdasarkan informasi yang diberikan oleh keluarganya.
+
+3.	Bussines Requirement	:
+	-	Informasi Orang Tua di Panti Jompo
+	-	Informasi keluarga di Panti Jompo
+
+4.	Bussines Value		:	
+	-	Lebih mudah dalam memantau kondisi keluarga di Panti Jompo ketika tidak bias berkunjung ke tempat.
+	-	Keluarga dapat lebih cepat dalam menerima informasi sehingga akan cepat melaksanakan penanganan ketika dalam kondisi darurat.
+
+5.	Special Issues		:	
+	-	Sistem dibangun berbasis web responsive
+	-	Sistem harus selalu update
+	-	Ada penjadwalan yang jelas bagi perawat untuk melaksanakan update
+
+

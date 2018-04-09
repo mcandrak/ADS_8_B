@@ -1,0 +1,17 @@
+Sistem Monitoring Untuk Lansia Di Panti Jompo
+
+A.	Kebutuhan Fungsional
+	1.	Perawat dapat melakukan input data pasien baru.
+	2.	Perawat dapat melakukan update kondisi lansia kepada keluarganya setiap hari.
+	3.	Terdapat fitur chat dengan kerabat atau keluarga pasien.
+	4.	Perawat dapat menghubungi keluarga dengan system Panic Button saat lansia dalam keadaan darurat atau urgent.
+	5.	Pihak keluarga dapat menerima notifikasi khusus saat lansia dalam kondisi yang membutuhkan penanganan segera.
+	6.	Pihak keluarga dapat memantau aktifitas sehari – hari serta kondisi pasien dalam laporan perawat.
+	7.	Pihak keluarga dapat melakukan pencarian data lansia menggunakan kode yang diberikan admin saat melakukan registrasi keluarga lansia.
+
+B.	Kebutuhan Non – Fungsional.
+	1.	Sistem mengadopsi teknologi web responsive.
+	2.	Sistem dirancang agar mudah digunakan oleh semua orang.
+	3.	Terdapat dua Bahasa yang dapat digunakan dalam system yakni, Bahasa Indonesia dan Bahasa Inggris.
+	4.	Sistem tidak memerlukan tempat penyimpanan data yang besar ( hemat data dan hemat waktu akses).
+	5.	Sistem telah memiliki firewall keamanan data.
