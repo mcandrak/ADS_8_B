@@ -27,5 +27,75 @@ selama terhubung dengan koneksi internet serta pengguna akan merasakan kenyamana
 selain itu sistem telah mengadopsi keamanan jaringan (firewall) sebagai penangkal awal dalam mengatasi serangan jaringan atau pencurian
 data, sistem juga telah didesain agar hemat kuota serta cepat tanggap dalam hal akses.>
  
+<1. PENDAHULUAN >
 
+<1.1 Latar Belakang>
+Kesehatan merupakan hak asasi manusia dan salah satu unsur kesejahteraan yang harus diwujudkan sesuai dengan cita-cita bangsa Indonesia sebagaimana
+dimaksud dalam Pancasila dan Undang-Undang Dasar Negara Republik Indonesia Tahun 1945 termasuk lansia. Menurut Undang – Undang No.13 Tahun 1998
+lansia adalah seseorang yang mencapai usia 60 tahun ke atas. Jumlah lansia di Indonesia semakin meningkat menurut hasil susenas (2015) pada tahun 2015
+jumlah lansia di Jawa Timur telah mencapai 4,45 juta orang atau sekitar 11,46 persen dari penduduk Jawa Timur hal ini merupakan dampak positif pembangunan
+karena pembangunan menurunkan angka kematian dan meningkatkan usia harapan hidup (UHH). peningkatan jumlah penduduk lansia akan membawa dampak terhadap
+sosial ekonomi baik dalam keluarga, masyarakat, maupun dalam negara.Implikasi ekonomis yang penting dari peningkatan jumlah penduduk lansia adalah peningkatan
+dalam rasio ketergantungan lanjut usia (old age dependency ratio). Setiap penduduk usia produktif akan menanggung semakin banyak penduduk usia lanjut disebabkan
+kondisi fisik dan psikis lansia banyak mengalami penurunan. Namun demikian, ketergantungan tersebut dapat diminimalkan dengan cara menjaga kesehatan lansia salah
+satunya dengan pola makan yang sehat. Pola makan yang sehat tentu berdasarkan kalori yang dibutuhkan oleh lansia serta makanan yang harus dihindari karena riwayat
+penyakit yang pernah diderita dengan adanya perawat di panti jompo hal ini akan dapat teratasi. Namun, yang menjadi masalah adalah tanpa adanya sistem monitoring
+yang baik maka keluarga lansia akan kurang nyaman karena tidak dapat memantau kegiatan, pola makan, dan kesehatan lansia secara up to date dengan adanya SUSILA
+maka diharapkan dapat membantu keluarga lansia dalam  melakukan monitoring secara online dan up to date serta bertanya jawab dengan perawat mengenai kesehatan lansia
+yang tidak dapat berkunjung secara langsung ke tempat yayasan panti jompo.
 
+<1.2 Tujuan>
+1. Sebagai solusi dalam memonitoring lansia karena berhalangan hadir secara langsung di tempat yayasan Panti Jompo.
+2. Mempermudah perawat dalam mempelajari kebiasaan lansia dan daftar riwayat penyakit yang tak tercantum dalam biodata pasien.
+3. Mempermudah pihak yayasan panti jompo dalam melakukan pertolongan pertama ketika pasien mengalami gangguan kesehatan dengan melacak daftar riwayat penyakit.
+4. Mempermudah pihak keluarga dan Yayasan saat terjadi kondisi darurat melalui fitur Panic Button.
+5. Sistem yang terbuka untuk keluarga dan pihak Yayasan akan mengurangi kecurigaan diantara keduanya serta meminimalisir tindak kecurangan.
+
+<1.3 Ruang Lingkup Perangkat Lunak>
+Perangkat lunak SUSILA dibuat untuk mengatasi masalah kerabat lansia yang berhalangan hadir dalam memantau aktifitas dan juga informasi kesehatan lansia terkini
+sistem dibuat dengan mengadopsi teknologi web responsif dengan dilengkapi firewall sebagai penangkal serangan jaringan dari pihak luar. Sasaran utama ditujukan pada
+pihak keluarga lansia dengan adanya SUSILA diharapkan dapat mengatasi masalah yang ada selain itu juga memberikan keuntungan diantara kedua belah pihak yakni pada
+kecepatan, ketepatan dan fleksibilitas SUSILA dalam memberikan informasi.
+
+<1.4 Target Audience>
+Dokumen ini ditujukan kepada pihak pengelolah yayasan dan pihak keluarga pasien untuk dipahami
+<1.4.1 Pengelolah Yayasan>
+1. Diharapkan Pihak Penglolah Yayasan dapat memahami cara kerja SUSILA dalam penerapanya pihak pengelolah dapat melaporkan bug dan kekurangan dari SUSILA untuk terciptanya
+sistem informasi yang sempurna sesuai harapan pengguna.
+2. Pihak pengelolah dapat melakukan perubahan sistem yang dibuat secara mandiri setelah memperoleh izin dari pihak pengembang.
+3. Segera hubungi pihak pengembang bila terjadiServer down atau kerusakan lain.
+4. Diharapkan admin rutin dalam melakukan update data serta melakukan pengecekan terhadap aktifitas yang mencurigakan.
+<1.4.2 Keluarga Lansia>
+1. Diharapkan dapat memahami secara baik dokumen ini.
+2. Dilarang menyebarluaskan dokumen kepada siapapun.
+3. Diharapkan pengguna memahami fungsi dan cara pengoperasian SUSILA secara benar.
+
+<1.5 Definisi, Istilah dan Singkatan>
+Guna memberikan gambaran yang sama terhadap beberapa definisi,
+istilah dan singkatan yang digunakan di dokumen ini, perlu dijelaskan
+sebagaimana berikut:
+
+1. IEEE	:	Institute of Electrical and Electronics Engineers adalah standart internasional untuk pengembang perangkat lunak
+2. SKPL	:	Spesifikasi Kebutuhan Perangkat Lunak atau
+3. SRS	:	Software Requirement Specification atau dokumen hasil analisis sebuah perangkat lunak yang berisi spesifikasi kebutuhan pengguna
+4. Kebutuhan Fungsional : Kebutuhan yang dapat dilakukan oleh admin atau pengelolah yayasan
+5. Kebutuhan Non Fungsional : Fitur yang diberikan oleh pihak pengembang kepada SUSILA
+6. Use Case Diagram : DIagram alur kerja sistem dalam penerapanya
+
+<1.6 Referensi>
+
+Berikut adalah daftar acuan yang digunakan dalam pendokumentasian spesifikasi kebutuhan perangkat lunak ini.
+
+•	IEEE Std. 1233, 1998 Edition IEEE Guide for Developing System Requirements Specifications
+
+•	IEEE, Software Requirements Engineering, Second Edition, IEEE Computer Society Press, 2002.
+
+•	Bray, Ian K. An Introduction to Requirement Engineering, 1st published, Addison-Wesley, 2002
+
+•	Kotonya, Gerald and Sommerville, Ian. Requirement Engineering: Processes and Techniques, John Wiley & Sons Ltd, 1998
+
+•	Holil, Achmad. Template: Spesifikasi Kebutuhan Perangkat Lunak, Jurusan Sistem Informasi ITS, 2006.
+
+<1.7 Ikhtisar Dokumen>
+Diharapkan dengan pembuatan SKPL SUSILA dapat memberikan pengetahuan serta pemahaman pengelolah dalam melakukan pengoperasian SUSILA dalam penerapanya
+serta SUSILA dapat menjadi solusi yang tepat dalam mengatasi permasalahan yang ada.
