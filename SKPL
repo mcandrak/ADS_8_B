@@ -1,0 +1,31 @@
+SPESIFIKASI KEBUTUHAN PERANGKAT LUNAK
+
+<Sistem Informasi Lansia di Panti Jompo>
+<SUSILA>
+
+<09/04/2018> DRAF
+
+Disiapkan Oleh:
+
+<Mohamad Ridlo Fadli, 150535600912>
+<Mei Candra Kartikasari, 150535605206>
+<Nu,man Hakim, 1505356xxxxxxxx>
+
+sebagai kelengkapan Tugas Akhir prodi S1 Teknik Informatika
+Mata Kuliah Analisis dan Desain Sistem
+
+
+Abstrak:
+
+<Dokumen berisikan tentang project perangkat lunak Sistem Informasi Lansia (SUSILA) yang berfungsi sebagai sistem monitoring
+lansia di sebuah yayasan panti jompo sistem tersebut dapat digunakan oleh keluarga lansia dalam memantau jadwal kegiatan dan
+seluruh aktifitas yang dilakukan oleh lansia dalam setiap harinya. Tersedia berbagai fitur di dalam SUSILA diantaranya fitur
+tanya jawab/chatting dengan admin, jadwal kegiatan terupdate, informasi kesehatan lansia, dan panic button yang akan memunculkan
+notifikasi khusus pada gadget kerabat lansia yang bersangkutan sebagai langkah awal dalam memberitahukan kondisi yang sangat
+urgent/darurat. Sistem yang dibuat berbasis web responsif sehingga dapat dibuka oleh pengguna aplikasi menggunakan gadget apapun
+selama terhubung dengan koneksi internet serta pengguna akan merasakan kenyamanan tampilan karena didukung dengan sistem web responsif
+selain itu sistem telah mengadopsi keamanan jaringan (firewall) sebagai penangkal awal dalam mengatasi serangan jaringan atau pencurian
+data, sistem juga telah didesain agar hemat kuota serta cepat tanggap dalam hal akses.>
+ 
+
+
