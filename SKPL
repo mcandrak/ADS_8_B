@@ -134,20 +134,21 @@ penjelasan :
 
 <2.2.1 Use Case Diagram>
 Use case diagram yang dijelaskan adalah use case melihat aktifitas lansia seperti gambar https://github.com/mcandrak/ADS_8_B/blob/master/Use%20Case.PNG dengan penjelasan berikut:
-Use Case Name	:	-	Melihat Aktivitas Lansia.
+Use Case Name		:	-	Melihat Aktivitas Lansia.
 Actor			:	-	Keluarga Lansia
 Description		:	-	Keluarga Lansia dapat melihat kondisi kesehatan lansia beserta aktivitas yang telah dilakukan lansia berdasarkan tanggal.
 Trigger			:
-					-	Keluarga lansia ingin melihat aktivitas yang dilakukan oleh lansia serta kondisi kesehatan lansia terkini.
+				-	Keluarga lansia ingin melihat aktivitas yang dilakukan oleh lansia serta kondisi kesehatan lansia terkini.
 Type			:	-	 External
-Pre Conditions	:	-	User berada di menu jadwal kegiatan lansia.
-Normal Course	:
-					-	Melihat aktivitas dan kondisi lansia dengan cara user meng – klik kegiatan lansia sesuai tanggal. 
-Post Conditions	:
-					-	Sistem menampilkan jadwal kegiatan lansia berdasarkan tanggal yang telah di klik serta kondisi kesehatan lansia pada tanggal tersebut.
+Pre Conditions		:	-	User berada di menu jadwal kegiatan lansia.
+Normal Course		:
+				-	Melihat aktivitas dan kondisi lansia dengan cara user meng
+				– 	klik kegiatan lansia sesuai tanggal. 
+Post Conditions		:
+				-	Sistem menampilkan jadwal kegiatan lansia berdasarkan tanggal yang telah di klik serta kondisi kesehatan lansia pada tanggal tersebut.
 Exceptions		:
-					-	Sistem menampilkan pop up “ tanggal pelaksaan belum terlaksana ”.
-					-	Browser menampilkan “ Request Time Out ”.
+				-	Sistem menampilkan pop up “ tanggal pelaksaan belum terlaksana ”.
+				-	Browser menampilkan “ Request Time Out ”.
 
 <2.3 Karakteristik dan Klasifikasi Pengguna>
 <2.3.1 Fungsi Perangkat Lunak>
