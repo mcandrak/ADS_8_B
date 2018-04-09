@@ -99,3 +99,70 @@ Berikut adalah daftar acuan yang digunakan dalam pendokumentasian spesifikasi ke
 <1.7 Ikhtisar Dokumen>
 Diharapkan dengan pembuatan SKPL SUSILA dapat memberikan pengetahuan serta pemahaman pengelolah dalam melakukan pengoperasian SUSILA dalam penerapanya
 serta SUSILA dapat menjadi solusi yang tepat dalam mengatasi permasalahan yang ada.
+
+<2. Deskripsi Umum>
+
+<2.1 Tentang Perangkat Lunak>
+<2.1.1 Kebutuhan Fungsional>
+Secara umum kebutuhan fungsionalitas yang harus dipenuhi oleh pengembang dalam sistem informasi SUSILA sebagai berikut :
+1.	Perawat dapat melakukan input data pasien baru.
+2.	Perawat dapat melakukan update kondisi lansia kepada keluarganya setiap hari.
+3.	Terdapat fitur chat dengan kerabat atau keluarga pasien.
+4.	Perawat dapat menghubungi keluarga dengan system Panic Button saat lansia dalam keadaan darurat atau urgent.
+5.	Pihak keluarga dapat menerima notifikasi khusus saat lansia dalam kondisi yang membutuhkan penanganan segera.
+6.	Pihak keluarga dapat memantau aktifitas sehari – hari serta kondisi pasien dalam laporan perawat.
+7.	Pihak keluarga dapat melakukan pencarian data lansia menggunakan kode yang diberikan admin saat melakukan registrasi keluarga lansia.
+<2.1.2 Kebutuhan Non Fungsional>
+1.	Sistem mengadopsi teknologi web responsive.
+2.	Sistem dirancang agar mudah digunakan oleh semua orang.
+3.	Terdapat dua Bahasa yang dapat digunakan dalam system yakni, Bahasa Indonesia dan Bahasa Inggris.
+4.	Sistem tidak memerlukan tempat penyimpanan data yang besar ( hemat data dan hemat waktu akses).
+5.	Sistem telah memiliki firewall keamanan data.
+
+<2.2 Fungsi - Fungsi Perangkat Lunak>
+Menjaga dan merawat orangtua maupun kerabat yang telah lanjut usia memang kewajiban untuk semua orang
+Namun tak semua orang dapat melaksanakan tanggung jawab tersebut karena masalah kesibukan kerja, Sehingga terpaksa harus menitipkan lansia ke tempat yayasan lansia
+Untuk mengatasi hal tersebut diperlukan sebuah system informasi yang dapat melakukan monitoring ketika Pihak keluarga tidak dapat secara langsung menjenguk ke tempat yayasan lansia
+Website SUSILA ini dapat dengan mudah diakses melalui internet kerena dikembangkan menggunakan antar muka web sehingga hanya dibutuhkan web browser untuk menikmati layanan SUSILA.
+Gambaran aplikasi SUSILA https://github.com/mcandrak/ADS_8_B/blob/master/gambar%20arsitektur.PNG
+
+penjelasan :
+1. User dapat melakukan monitoring aktivitas, informasi kesehatan lansia, dan tanya jawab dengan admin sehubungan dengan lansia.
+2. Server sebagai media yang menjembatani antara database dengan web portal SUSILA
+3. Database menyimpan data file biodata, aktifitas dan informasi kesehatan lansia berdasarkan tanggal.
+4. Administrator sistem mengolah informasi yang akan dipublish pada web portal SUSILA.
+
+<2.2.1 Use Case Diagram>
+Use case diagram yang dijelaskan adalah use case melihat aktifitas lansia seperti gambar https://github.com/mcandrak/ADS_8_B/blob/master/Use%20Case.PNG dengan penjelasan berikut:
+Use Case Name	:	-	Melihat Aktivitas Lansia.
+Actor			:	-	Keluarga Lansia
+Description		:	-	Keluarga Lansia dapat melihat kondisi kesehatan lansia beserta aktivitas yang telah dilakukan lansia berdasarkan tanggal.
+Trigger			:
+					-	Keluarga lansia ingin melihat aktivitas yang dilakukan oleh lansia serta kondisi kesehatan lansia terkini.
+Type			:	-	 External
+Pre Conditions	:	-	User berada di menu jadwal kegiatan lansia.
+Normal Course	:
+					-	Melihat aktivitas dan kondisi lansia dengan cara user meng – klik kegiatan lansia sesuai tanggal. 
+Post Conditions	:
+					-	Sistem menampilkan jadwal kegiatan lansia berdasarkan tanggal yang telah di klik serta kondisi kesehatan lansia pada tanggal tersebut.
+Exceptions		:
+					-	Sistem menampilkan pop up “ tanggal pelaksaan belum terlaksana ”.
+					-	Browser menampilkan “ Request Time Out ”.
+
+<2.3 Karakteristik dan Klasifikasi Pengguna>
+<2.3.1 Fungsi Perangkat Lunak>
+perangkat lunak berbasis web SUSILA berfungsi sebagai media yang menjembatani antara user dengan lansia dengan adanya perangkat lunak ini diharapkan masalah
+untuk memonitoring aktifitas lansia dan informasi kesehatanya dapat dilakukan secara update sehingga ketika kerabat lansia tidak dapat menjenguk lansia secara
+langsung maka akan terjawab dengan SUSILA sebagai solusi
+<2.3.2 Keamanan Data>
+Sebagai jaminan kenyamanan pengguna maka harus ada sebuah keamanan jaringan sebagai langkah awal menangkal serangan dan pencurian data dari pihak luar oleh
+karena itu dibutuhkan administrator khusus untuk memonitor aktivitas mencurigakan sehingga dapat secara tanggap diatasi.
+
+<2.4 Lingkungan Operasi>
+Dengan sistem web responsif tidak dibutuhkan spesifikasi khusus mengenai hardware dan platform yang digunakan oleh pengguna selama pengguna terhubung koneksi internet
+dan juga memiliki aplikasi web browser yang telah support dengan HTML 5 maka akan dapat mengakses SUSILA secara sempurna.
+
+<2.5 Batasan Desain dan Implementasi>
+Seluruh metode dan teknologi memiliki kekurangan dan kelebihanya masing - masing termasuk dengan sistem web responsif yang diadopsi oleh sistem informasi SUSILA
+batasan yang dimiliki web responsif adalah setiap aktifitas memerlukan kuota yang tak luput juga dengan waktu eksekusi yang terhitung lebih lambat daripada aplikasi
+dekstop atau android, keterbatasan desain yang harus menyesuaikan dengan hosting karena desain yang bagus tentu membutuhkan storage yang cukup besar.
