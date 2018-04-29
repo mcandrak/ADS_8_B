@@ -12,7 +12,7 @@
 		$pass = md5($password);
 
     //count_data("admin", "%");
-    // count_data("admin", "%");
+    //  count_data("admin", "%");
 
 		if ($sql = $x -> count_data("admin", "admin_nm = '$admin_nm'") ==0) {
 			if ($sql = $x -> con()->query("INSERT INTO admin values ('1','$admin_nm', '$email', '$pass' , '$password')")) {
