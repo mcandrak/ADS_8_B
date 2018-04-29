@@ -167,3 +167,9 @@ dan juga memiliki aplikasi web browser yang telah support dengan HTML 5 maka aka
 Seluruh metode dan teknologi memiliki kekurangan dan kelebihanya masing - masing termasuk dengan sistem web responsif yang diadopsi oleh sistem informasi SUSILA
 batasan yang dimiliki web responsif adalah setiap aktifitas memerlukan kuota yang tak luput juga dengan waktu eksekusi yang terhitung lebih lambat daripada aplikasi
 dekstop atau android, keterbatasan desain yang harus menyesuaikan dengan hosting karena desain yang bagus tentu membutuhkan storage yang cukup besar.
+
+<2.6 Dokumentasi Bagi Pengguna>
+Dukungan perkembangan lansia berupa foto setiap waktu memudahkan perwakilan keluarga untuk mengontrol anggota keluarganya. Serta panduan penggunaan sistem secara online dapat dilihat kapan saja.
+
+<2.7 Asumsi dan Ketergantungan>
+Sistem Informasi ini dapat berjalan dengan baik pada jaringan internet dan dapat diakses menggunakan perangkat bergerak (mobile).
