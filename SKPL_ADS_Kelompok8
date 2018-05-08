@@ -173,3 +173,13 @@ Dukungan perkembangan lansia berupa foto setiap waktu memudahkan perwakilan kelu
 
 <2.7 Asumsi dan Ketergantungan>
 Sistem Informasi ini dapat berjalan dengan baik pada jaringan internet dan dapat diakses menggunakan perangkat bergerak (mobile).
+
+< 3. Kebutuhan Antar Muka Eksternal >
+
+<3.1 Antarmuka Pengguna>
+Antarmuka pemakai akan dikembangkan dengan menggunakan modus grafik dan berbasis web. Pemakai berinteraksi dengan Sistem Informasi untuk Memantau Kondisi Lansia di Yayasan (SUSILA) 
+melalui antarmuka penjelajah situs (web browser). SUSILA menerima masukan dari pemakai melalui perintah yang diklik pada mouse atau yang diketikkan melalui keyboard untuk mengakses 
+serta memantau kondisi Lansia. Keluaran dari perangkat lunak SUSILA dapat dilihat pemakai dengan menggunakan monitor secara langsung.
+
+<3.1 Antarmuka Perangkat Keras>
+
