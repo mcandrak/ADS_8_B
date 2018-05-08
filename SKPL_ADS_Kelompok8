@@ -182,4 +182,17 @@ melalui antarmuka penjelajah situs (web browser). SUSILA menerima masukan dari p
 serta memantau kondisi Lansia. Keluaran dari perangkat lunak SUSILA dapat dilihat pemakai dengan menggunakan monitor secara langsung.
 
 <3.1 Antarmuka Perangkat Keras>
+Kebutuhan minimum perangkat keras yang dapat digunakan oleh SUSILA adalah :
+	- Laptop atau PC dengan spesifikasi standard
+	- Keyboard (Opsional)
+	- Mouse (Opsional)
+ 
+ <3.2 Antarmuka Perangkat Lunak>
+ Untuk mengakses SUSILA bisa memakai segala jenis browser. Jadi tidak diperlukan browser khusus untuk mengakses SUSILA. Bisa diakses melalui
+ ponsel, PC, tablet, atau gadget lainnya.
+ 
+<3.3 Antarmuka Komunikasi>
+Yang dibutuhkan hanya sebuah komputer server dan satu atau beberapa komputer client yang terhubung secara client-server dalam lingkup jaringan Internet atau intranet berbasis protokol 
+Transmission Control Protocol/Internet Protocol (TCP/IP).
 
+< 4. Feature Sistem>
