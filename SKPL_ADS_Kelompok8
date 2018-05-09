@@ -176,23 +176,25 @@ Sistem Informasi ini dapat berjalan dengan baik pada jaringan internet dan dapat
 
 < 3. Kebutuhan Antar Muka Eksternal >
 
-<3.1 Antarmuka Pengguna>
+<3.1.1 Antarmuka Pengguna>
 Antarmuka pemakai akan dikembangkan dengan menggunakan modus grafik dan berbasis web. Pemakai berinteraksi dengan Sistem Informasi untuk Memantau Kondisi Lansia di Yayasan (SUSILA) 
 melalui antarmuka penjelajah situs (web browser). SUSILA menerima masukan dari pemakai melalui perintah yang diklik pada mouse atau yang diketikkan melalui keyboard untuk mengakses 
 serta memantau kondisi Lansia. Keluaran dari perangkat lunak SUSILA dapat dilihat pemakai dengan menggunakan monitor secara langsung.
 
-<3.1 Antarmuka Perangkat Keras>
+<3.1.2Antarmuka Perangkat Keras>
 Kebutuhan minimum perangkat keras yang dapat digunakan oleh SUSILA adalah :
-	- Laptop atau PC dengan spesifikasi standard
-	- Keyboard (Opsional)
+	- Gadget yang memiliki kemampuan koneksi internet dan mampu mengoperasikan browser yang mendukung HTML 5 seperti laptop, tablet, pad ataupun smartphone
 	- Mouse (Opsional)
+	- Keyboard atau touchscreen (Opsional)
  
  <3.2 Antarmuka Perangkat Lunak>
- Untuk mengakses SUSILA bisa memakai segala jenis browser. Jadi tidak diperlukan browser khusus untuk mengakses SUSILA. Bisa diakses melalui
- ponsel, PC, tablet, atau gadget lainnya.
+ Untuk dapat mengakses SUSILA dapat menggunakan browser yang telah support dengan HTML 5 karena tanpa hal tersebut tidak semua fitur dapat digunakan dengan sempurna
  
 <3.3 Antarmuka Komunikasi>
 Yang dibutuhkan hanya sebuah komputer server dan satu atau beberapa komputer client yang terhubung secara client-server dalam lingkup jaringan Internet atau intranet berbasis protokol 
 Transmission Control Protocol/Internet Protocol (TCP/IP).
 
-< 4. Feature Sistem>
+<3.4 Batasan Perancangan>
+	*) Tampilan web dibuat dengan menggunakan Photoshop, Corel Draw, AdobeIllustrator.
+	*) Text editor yang digunakan adalah Notepad++ dan/atau Sublime Text.
+	*) Bahasa Pemrograman yang digunakan adalah PHP, MySQL dan HTML
