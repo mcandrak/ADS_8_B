@@ -53,14 +53,14 @@ $db = $config->getConnection();
 		elseif($_SESSION['username'] == 'perawat')
 		{
 ?>
-		  <a class="navbar-brand" href="kriteria.php"><img src="images/a.png"></a>
+		  <a class="navbar-brand" href="perawat.php"><img src="images/a.png"></a>
 <?php
 		}
 
 		else
 		{
 ?>
-		  <a class="navbar-brand" href="nilai.php"><img src="images/a.png"></a>
+		  <a class="navbar-brand" href="keluarga.php"><img src="images/a.png"></a>
 
 <?php
 		}

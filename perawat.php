@@ -40,7 +40,7 @@ if(isset($_POST['hapus-contengan'])){
 <form method="post">
 	<div class="row">
 		<div class="col-md-6 text-left">
-			<h4>Data Kriteria</h4>
+			<h4>Data Lansia</h4>
 		</div>
 		<div class="col-md-6 text-right">
             <button type="submit" name="hapus-contengan" class="btn btn-danger">Hapus Contengan</button>
