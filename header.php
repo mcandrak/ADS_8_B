@@ -77,7 +77,7 @@ $db = $config->getConnection();
 			
 ?>
 		  <ul class="nav navbar-nav">
-			<li><a href="kriteria.php">Lansia</a></li>
+			<li><a href="perawat.php">Lansia</a></li>
 			<li><a href="user.php">Perawat</a></li>
 			<li><a href="#">Laporan</a></li>
 		  </ul>
